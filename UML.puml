@@ -1,0 +1,68 @@
+@startuml
+class GameEvent {
+  - event_type: str
+  - impact_value: int
+  + __init__()
+}
+
+enum CrowdState {
+  NORMAL
+  HYPED
+  TENSE
+  DEFLATED
+}
+
+class MomentumTracker {
+  - current_momentum: int
+  + __init__()
+  + update_momentum(game_event: GameEvent)
+  + get_momentum_state(): CrowdState
+}
+
+class CrowdAnimator {
+  + animate(state: CrowdState)
+}
+
+class AudioManager {
+  + adjust_audio(state: CrowdState)
+}
+
+class UIEffectsManager {
+  + trigger_effects(state: CrowdState)
+}
+
+class CommentaryManager {
+  + commentate(state: CrowdState)
+}
+
+class AccessibilitySettings {
+  - visual_effects_enabled: bool
+  - audio_effects_enabled: bool
+  + __init__()
+}
+
+class CrowdManager {
+  - momentum_tracker: MomentumTracker
+  - animator: CrowdAnimator
+  - audio_manager: AudioManager
+  - ui_manager: UIEffectsManager
+  - commentary_manager: CommentaryManager
+  - accessibility: AccessibilitySettings
+  + __init__()
+  + process_event(game_event: GameEvent)
+}
+
+GameEvent --> MomentumTracker : used to update
+MomentumTracker --> CrowdManager : composition
+CrowdAnimator --> CrowdManager : composition
+AudioManager --> CrowdManager : composition
+UIEffectsManager --> CrowdManager : composition
+CommentaryManager --> CrowdManager : composition
+AccessibilitySettings --> CrowdManager : composition
+
+CrowdState --> MomentumTracker : returns
+CrowdState --> CrowdAnimator : used
+CrowdState --> AudioManager : used
+CrowdState --> UIEffectsManager : used
+CrowdState --> CommentaryManager : used
+@enduml

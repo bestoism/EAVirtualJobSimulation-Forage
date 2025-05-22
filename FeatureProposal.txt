@@ -1,0 +1,25 @@
+Title:
+Dynamic Crowd Momentum System
+
+Overview:
+Introduce a Dynamic Crowd Momentum System that links in-game performance with crowd behavior and environmental intensity. The system adjusts stadium energy, sound levels, and visual atmosphere based on the team’s momentum—enhancing immersion and raising the stakes during key game moments.
+
+Value Statement:
+While College Football is known for its passionate fanbases and electrifying atmospheres, current crowd reactions often feel static. This new feature gives players a more immersive experience by tying gameplay success (or failure) to crowd reactions. It rewards strong performances and makes comebacks more thrilling. The emotional highs and lows of a real college football game can now be felt in-game, improving player connection to the game world.
+
+Solution:
+This system taps into existing momentum mechanics, expanding them to trigger changes in crowd behavior. If a home team scores a touchdown or performs a critical defensive stop, the stadium erupts—volume increases, crowd animations become more intense, and commentators respond dynamically. Conversely, if the home team performs poorly, energy drops: sound fades slightly, animations slow down, and tension builds. The system also introduces subtle UI effects like slight camera shake or crowd chants that sync with high-stakes plays. The tech leverages existing crowd animation systems and audio layering tools, meaning implementation is largely additive rather than requiring a complete overhaul.
+
+Evaluation Statement:
+Pros:
+Deepens immersion and emotional engagement.
+Makes every play feel more impactful.
+Encourages performance consistency through crowd feedback.
+Utilizes existing systems (animations, audio, UI) with minimal disruption.
+
+Cons:
+Risk of sensory overload—must be balanced for clarity.
+Needs accessibility options for players sensitive to visual/audio stimulation.
+Must ensure fair play balance so momentum doesn’t feel “scripted” or unfair.
+
+By adding this system, College Football players will feel the pressure, hype, and emotion of college stadiums like never before. It transforms the crowd from background noise into an active force in the game experience.
