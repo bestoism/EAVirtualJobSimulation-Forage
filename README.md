@@ -4,24 +4,23 @@ Work and experiences from the Electronic Arts Virtual Job Simulation on Forage.
 
 ## Repository Structure
 
-| File/Folder                  | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| `LICENSE`                    | Project license (MIT License)                                               |
-| `README.md`                  | Main documentation for the project                                          |
-| `crowd_simulation.py`        | Python script for crowd simulation logic                                    |
-| `DynamicCrowdMomentumSystem.h` | C++ header file for the dynamic crowd momentum system                      |
-| `FeatureProposal.txt`        | Feature proposal and ideas for the project                                  |
-| `task-4-starter.cpp`         | C++ source code for task 4 starter                                          |
-| `task-4-starter.exe`         | Compiled executable for task 4 starter                                      |
-| `task-4-starter-revision.cpp`| Revised C++ source code for task 4                                          |
-| `task-4-starter-revision.exe`| Compiled executable for the revised task 4                                  |
-| `DynamicCrowdMomentumSystem.exe` | Compiled executable for the dynamic crowd momentum system                |
-| `UML.pdf`                    | UML diagram in PDF format                                                   |
-| `UML.png`                    | UML diagram in image format                                                 |
-| `UML.puml`                   | PlantUML file for generating UML diagrams                                   |
-| `.git/`                      | Git version control folder (auto-generated)                                 |
-| `.vscode/`                   | Visual Studio Code workspace settings                                       |
-
+| File/Folder                      | Description                                                         |
+|----------------------------------|---------------------------------------------------------------------|
+| `LICENSE`                        | Project license (MIT License)                                       |
+| `README.md`                      | Main documentation for the project                                  |
+| `crowd_simulation.py`            | Python script for crowd simulation logic                            |
+| `DynamicCrowdMomentumSystem.h`   | C++ header file for the dynamic crowd momentum system               |
+| `FeatureProposal.txt`            | Feature proposal and ideas for the project                          |
+| `task-4-starter.cpp`             | C++ source code for task 4 starter                                  |
+| `task-4-starter.exe`             | Compiled executable for task 4 starter                              |
+| `task-4-starter-revision.cpp`    | Revised C++ source code for task 4                                  |
+| `task-4-starter-revision.exe`    | Compiled executable for the revised task 4                          |
+| `DynamicCrowdMomentumSystem.exe` | Compiled executable for the dynamic crowd momentum system           |
+| `UML.pdf`                        | UML diagram in PDF format                                           |
+| `UML.png`                        | UML diagram in image format                                         |
+| `UML.puml`                       | PlantUML file for generating UML diagrams                           |
+| `.git/`                          | Git version control folder (auto-generated)                         |
+| `.vscode/`                       | Visual Studio Code workspace settings                               |
 
 ## About
 
